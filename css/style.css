@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --header-bg-color: #add8e6;
+    --header-content-color: #daa520;
+    --section1-bg-color: #00008b;
+    --section1-content-color: #ee82ee;
+    --section24-bg-color: white; 
+    --section234-contentbig-color: #1e90ff;
+    --section234-contentsmall-color: #ffc0cb;
+    --section35-bg-color: #d3d3d3;
+    --section5-content-color: #228b22;
+    --footer-bg-color: black;
+    --footer1-content1-color: #f08080;
+    --footer1-content2-color: #20b2aa;
+    --logo-button-color: #ffb6c1;
+    --footer2-content-color: #7fffd4;
+}
+
+/* #region "debug"  */
+
+.debug{
+    border: 1px dashed red;
+}
+
+/* #endregion "deub" */
