@@ -15,7 +15,7 @@
     --section234-contentsmall-color: #ffc0cb;
     --section35-bg-color: #d3d3d3;
     --section5-content-color: #228b22;
-    --footer-bg-color: black;
+    --footer-bg-color: #23272a;
     --footer1-content1-color: #f08080;
     --footer1-content2-color: #20b2aa;
     --logo-button-color: #ffb6c1;
@@ -49,7 +49,11 @@
 }
 
 .border{
-    border: 2px dashed black;
+    border: 1px dashed black;
+}
+
+.border_white{
+    border: 1px dashed white;
 }
 
 .logo_login{
@@ -58,6 +62,13 @@
 
 .link{
     width: 70%;
+}
+
+.container{
+    height: 400px;
+    width: 1100px;
+    justify-content: center;
+    display: flex;
 }
 
 .small_section{
@@ -91,14 +102,14 @@
 #lightblue_box{
     background-color: var(--section234-contentbig-color);
     height: 400px;
-    width: 700px;
+    width: 60%;
     margin-top: 40px;
 }
 
 #pink_box{
     background-color: var(--section234-contentsmall-color);
     height: 400px;
-    width: 400px;
+    width: 40%;
     margin-top: 40px;
 }
 
@@ -115,4 +126,42 @@
     height: 700px;
     width: 1100px;
     margin-top: 40px;
+}
+
+.footer{
+    background-color: var(--footer-bg-color)
+}
+
+#peach_box{
+    background-color: var(--footer1-content1-color);
+    width: 33.3%;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#water_box{
+    background-color: var(--footer1-content2-color);
+    height: 400px;
+    width: 16.6%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.bg_pink{
+    background-color: var(--logo-button-color);
+}
+
+.end_page{
+    display: flex;
+    background-color: var(--footer2-content-color);
+    width: 1100px;  
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.solid_white_border{
+    border-top: 1px solid white;
 }
