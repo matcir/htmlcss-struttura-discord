@@ -29,3 +29,33 @@
 }
 
 /* #endregion "deub" */
+
+.header{
+    background-color: var(--header-bg-color);
+    min-height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.nav{
+    display: flex;
+    background-color: var(--header-content-color);
+    max-width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.border{
+    border: 1px dashed black;
+}
+
+.logo_login{
+    width: 15%;
+}
+
+.link{
+    width: 70%;
+}
